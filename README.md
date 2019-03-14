@@ -1,26 +1,13 @@
 ## spfx-dropdown
 
-This is where you include your WebPart documentation.
+This is an example of a simple dropdown web part created using React in SharePoint Framework. The web part heavily utilizes the react-dropdown component (https://www.npmjs.com/package/react-dropdown). 
 
 ### Building the code
 
-```bash
+```
 git clone the repo
-npm i
-npm i -g gulp
-gulp
+npm install
+gulp serve
 ```
 
-This package produces the following:
-
-* lib/* - intermediate-stage commonjs build artifacts
-* dist/* - the bundled script, along with other resources
-* deploy/* - all resources which should be uploaded to a CDN.
-
-### Build options
-
-gulp clean - TODO
-gulp test - TODO
-gulp serve - TODO
-gulp bundle - TODO
-gulp package-solution - TODO
+Running gulp serve will start a local SharePoint Online workbench which can be used to add the Custom Dropdown web part. Everytime you make changes to the code, the workbench will update and display the latest changes. 
