@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "custom-dropdown-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/customDropdown/CustomDropdownWebPart.js",
+          "manifest": "./src/webparts/customDropdown/CustomDropdownWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CustomDropdownWebPartStrings": "lib/webparts/customDropdown/loc/{locale}.js"
+  }
+}
